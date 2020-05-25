@@ -1,0 +1,26 @@
+{
+    "root": {
+        "element": [
+            {
+                "char_code": "UA",
+                "name": "Ukrainian"
+            },
+            {
+                "char_code": "RU",
+                "name": "Russian"
+            },
+            {
+                "char_code": "EN",
+                "name": "English"
+            },
+            {
+                "char_code": "PL",
+                "name": "Polish"
+            },
+            {
+                "char_code": "DE",
+                "name": "Deutsch"
+            }
+        ]
+    }
+}

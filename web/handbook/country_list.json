@@ -1,0 +1,139 @@
+{
+    "root": {
+        "element": [
+            {
+                "status": "10",
+                "employer_country": "10",
+                "order": "1000",
+                "char_code": "UA",
+                "name": "Ukraine"
+            },
+            {
+                "status": "10",
+                "employer_country": "10",
+                "order": "900",
+                "char_code": "RU",
+                "name": "Russia"
+            },
+            {
+                "status": "10",
+                "employer_country": "10",
+                "order": "800",
+                "char_code": "BY",
+                "name": "Belarus"
+            },
+            {
+                "status": "10",
+                "employer_country": "20",
+                "order": "100",
+                "char_code": "PL",
+                "name": "Poland"
+            },
+            {
+                "status": "10",
+                "employer_country": "20",
+                "order": "100",
+                "char_code": "NL",
+                "name": "Netherlands"
+            },
+            {
+                "status": "10",
+                "employer_country": "20",
+                "order": "100",
+                "char_code": "DE",
+                "name": "Germany"
+            },
+            {
+                "status": "10",
+                "employer_country": "20",
+                "order": "100",
+                "char_code": "HU",
+                "name": "Hungary"
+            },
+            {
+                "status": "10",
+                "employer_country": "20",
+                "order": "100",
+                "char_code": "IL",
+                "name": "Israel"
+            },
+            {
+                "status": "10",
+                "employer_country": "20",
+                "order": "100",
+                "char_code": "SK",
+                "name": "Slovakia"
+            },
+            {
+                "status": "10",
+                "employer_country": "20",
+                "order": "100",
+                "char_code": "CZ",
+                "name": "Czech"
+            },
+            {
+                "status": "10",
+                "employer_country": "10",
+                "order": "200",
+                "char_code": "AZ",
+                "name": "Azerbaijan"
+            },
+            {
+                "status": "10",
+                "employer_country": "10",
+                "order": "200",
+                "char_code": "KZ",
+                "name": "Kazakhstan"
+            },
+            {
+                "status": "10",
+                "employer_country": "10",
+                "order": "200",
+                "char_code": "TJ",
+                "name": "Tajikistan"
+            },
+            {
+                "status": "10",
+                "employer_country": "10",
+                "order": "200",
+                "char_code": "GE",
+                "name": "Georgia"
+            },
+            {
+                "status": "10",
+                "employer_country": "10",
+                "order": "200",
+                "char_code": "RO",
+                "name": "Romania"
+            },
+            {
+                "status": "10",
+                "employer_country": "10",
+                "order": "200",
+                "char_code": "MD",
+                "name": "Moldova"
+            },
+            {
+                "status": "10",
+                "employer_country": "20",
+                "order": "100",
+                "char_code": "HU",
+                "name": "Hungary"
+            },
+            {
+                "status": "10",
+                "employer_country": "10",
+                "order": "200",
+                "char_code": "UZ",
+                "name": "Uzbekistan"
+            },
+            {
+                "status": "10",
+                "employer_country": "20",
+                "order": "100",
+                "char_code": "NO",
+                "name": "Norway"
+            }
+        ]
+    }
+}

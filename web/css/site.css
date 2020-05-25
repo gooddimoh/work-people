@@ -1,0 +1,480 @@
+.registration__form button[type=submit] {
+    width: 100%;
+}
+
+.has-error input.form-control {
+	border-color: #dc3545 !important;
+}
+
+.has-error .help-block-error,
+.has-error .help-block {
+	color: #dc3545;
+}
+
+.validation-error-message {
+	color: #dc3545;
+}
+
+input.validation-error-input {
+	border-color: #dc3545 !important;
+}
+
+.create-profile-form .form-control {
+	margin-bottom: 0px !important;
+}
+
+.create-profile-category-selected {
+	background-color: #dff0d8;
+	border: 1px solid transparent;
+	border-color: #d6e9c6;
+}
+.edit-info .table__td--second-view {
+	padding: 15px 16px;
+	font-weight: bold;
+	min-width: 210px;
+}
+
+/**
+* pretty VueJS render
+*/
+[v-cloak] {
+	display: none;
+}
+
+.fix-profile-create {
+	margin-top: 0px;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+/**** full screen loader ****/
+/* Absolute Center Spinner */
+.loading {
+	position: fixed;
+	z-index: 1060;
+	height: 2em;
+	width: 2em;
+	overflow: show;
+	margin: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+  
+  /* Transparent Overlay */
+  .loading:before {
+	content: '';
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	  background: radial-gradient(rgba(20, 20, 20,.8), rgba(0, 0, 0, .8));
+  
+	background: -webkit-radial-gradient(rgba(20, 20, 20,.8), rgba(0, 0, 0,.8));
+}
+  
+  /* :not(:required) hides these rules from IE9 and below */
+  .loading:not(:required) {
+	/* hide "loading..." text */
+	font: 0/0 a;
+	color: transparent;
+	text-shadow: none;
+	background-color: transparent;
+	border: 0;
+}
+  
+  .loading:not(:required):after {
+	content: '';
+	display: block;
+	font-size: 10px;
+	width: 1em;
+	height: 1em;
+	margin-top: -0.5em;
+	-webkit-animation: spinner 1500ms infinite linear;
+	-moz-animation: spinner 1500ms infinite linear;
+	-ms-animation: spinner 1500ms infinite linear;
+	-o-animation: spinner 1500ms infinite linear;
+	animation: spinner 1500ms infinite linear;
+	border-radius: 0.5em;
+	-webkit-box-shadow: rgba(255,255,255, 0.75) 1.5em 0 0 0, rgba(255,255,255, 0.75) 1.1em 1.1em 0 0, rgba(255,255,255, 0.75) 0 1.5em 0 0, rgba(255,255,255, 0.75) -1.1em 1.1em 0 0, rgba(255,255,255, 0.75) -1.5em 0 0 0, rgba(255,255,255, 0.75) -1.1em -1.1em 0 0, rgba(255,255,255, 0.75) 0 -1.5em 0 0, rgba(255,255,255, 0.75) 1.1em -1.1em 0 0;
+  box-shadow: rgba(255,255,255, 0.75) 1.5em 0 0 0, rgba(255,255,255, 0.75) 1.1em 1.1em 0 0, rgba(255,255,255, 0.75) 0 1.5em 0 0, rgba(255,255,255, 0.75) -1.1em 1.1em 0 0, rgba(255,255,255, 0.75) -1.5em 0 0 0, rgba(255,255,255, 0.75) -1.1em -1.1em 0 0, rgba(255,255,255, 0.75) 0 -1.5em 0 0, rgba(255,255,255, 0.75) 1.1em -1.1em 0 0;
+}
+  
+  /* Animation */
+  
+  @-webkit-keyframes spinner {
+	0% {
+	  -webkit-transform: rotate(0deg);
+	  -moz-transform: rotate(0deg);
+	  -ms-transform: rotate(0deg);
+	  -o-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+	  -moz-transform: rotate(360deg);
+	  -ms-transform: rotate(360deg);
+	  -o-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+}
+  @-moz-keyframes spinner {
+	0% {
+	  -webkit-transform: rotate(0deg);
+	  -moz-transform: rotate(0deg);
+	  -ms-transform: rotate(0deg);
+	  -o-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+	  -moz-transform: rotate(360deg);
+	  -ms-transform: rotate(360deg);
+	  -o-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+}
+  @-o-keyframes spinner {
+	0% {
+	  -webkit-transform: rotate(0deg);
+	  -moz-transform: rotate(0deg);
+	  -ms-transform: rotate(0deg);
+	  -o-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+	  -moz-transform: rotate(360deg);
+	  -ms-transform: rotate(360deg);
+	  -o-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+}
+  @keyframes spinner {
+	0% {
+	  -webkit-transform: rotate(0deg);
+	  -moz-transform: rotate(0deg);
+	  -ms-transform: rotate(0deg);
+	  -o-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+	  -moz-transform: rotate(360deg);
+	  -ms-transform: rotate(360deg);
+	  -o-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+}
+  
+  /**** END full screen loader ****/
+  
+ /** pager sorter */ 
+a.asc, a.desc {
+	color: #333e48;
+}
+
+/* fix input to button */
+.search-cat button, .search-cat .select {
+	width: 100%;
+}
+  
+@media all and (max-width: 480px) {
+  .search-cat button, .search-cat .select {
+    padding-left: 10px;
+  }
+}
+
+.search-cat button {
+  padding-right: 10px;
+}
+
+.search-cat button[type=submit] {
+  background: #fed700;
+  font-weight: bold;
+}
+
+.search-cat button[type=submit]:hover {
+  background: #333e48;
+  color: #fff;
+}
+
+.search-cat button::-webkit-input-placeholder {
+  color: #333e48;
+}
+
+.search-cat button:-ms-input-placeholder {
+  color: #333e48;
+}
+
+.search-cat button::-ms-input-placeholder {
+  color: #333e48;
+}
+
+.search-cat button::placeholder {
+  color: #333e48;
+}
+  
+.edit-info .nice-select {
+	height: 40px;
+    line-height: 40px;
+    margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.edit-info input.edit {
+	font-weight: initial;
+}
+
+.fix-company-logo img {
+	height: 100%;
+    min-width: 100%;
+    max-width: inherit;
+    display: block;
+}
+
+.alert button.close {
+	display: none;
+}
+
+.top-alert-message {
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: #fed700;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.in_favorite:before {
+	background: url(../img/header/header-like-h.png) center/contain no-repeat;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.country-city-loader-wait {
+	margin: 17px 10px 10px 15px;
+}
+
+/** main page search fix */
+.main-page-search .input-lg.select2-container--krajee .select2-selection--multiple, .input-group-lg .select2-container--krajee .select2-selection--multiple,
+.resume-page-search .input-lg.select2-container--krajee .select2-selection--multiple, .input-group-lg .select2-container--krajee .select2-selection--multiple {
+	min-height: 50px;
+}
+
+.seo-vacancy {
+	margin-bottom: 45px;
+}
+
+.seo-review {
+	margin-bottom: 45px;
+}
+
+
+@media all and (max-width: 1200px) {
+	.header-add-mobile-guest {
+		display: none;
+	}
+}
+
+@media all and (max-width: 767px) {
+	.header-add-mobile-guest {
+		display: flex;
+		margin-right: 15px;
+	}
+}
+
+
+@media all and (max-width: 1200px) {
+	.resume-btn-double .col {
+		padding: 0px 0px;
+	}
+}
+
+.single-top__main-resume {
+	max-width: 1200px;
+}
+
+
+@media all and (max-width: 767px) {
+	.resume_list li:first-child {
+	  display: flex;
+	}
+  }
+
+.fixed-subscribe {
+    position: fixed;
+    bottom: 15px;
+    right: 15px; 
+    z-index: 1000;
+}
+
+@media all and (max-width: 767px) {
+  .fixed-subscribe {
+    right: 15px;
+    left: 15px;
+  }
+}
+
+.vacancy--tile .vacancy__like-wrap a.vacancy__like {
+	display: none !important;
+}
+
+.currency-desired_salary_per_hour-label {
+	padding-top: 16px;
+    padding-left: 15px;
+    display: block;
+}
+
+.reg-lang__bl .multiselect__tags {
+	min-height: 51px;
+	padding: 15px 40px 0 15px;
+}
+
+.reg-lang__bl .multiselect__select {
+	padding: 25px 15px 0 15px;
+}
+
+.search__col3 {
+	width: 20%;
+}
+
+.info-tarif_row {
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+}
+
+.info-tarif_row .col {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+  
+@media all and (max-width: 767px) {
+	.info-tarif_row {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+	.info-tarif_row .col {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+.trud-if__select {
+	margin-bottom: 15px;
+}
+
+.trud-if__title-description {
+    font-size: 14px;
+	font-weight: 400;
+	margin-top: 7px;
+}
+
+.trud-if__title-description .tarif_more_green {
+	color: #80a361;
+	font-weight: 700;
+}
+
+/* price */
+.tarif-block-price {
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	margin-bottom: 25px;
+}
+
+.tarif-block-price > div {
+	width: 50%;
+    text-align: center;
+}
+
+.tarif-discount-price {
+	text-decoration: line-through;
+	font-size: 27px;
+}
+
+.tarif-final-price {
+	font-size: 27px;
+	font-weight: 700;
+	color: #dc908b;
+}
+
+.tarif-discount-size {
+	float: left;
+    min-width: 70px;	
+}
+
+.tarif-discount-marker {
+	font-weight: 700;
+    color: #dc908b;
+    border: 3px solid #dc908b;
+    border-radius: 50%;
+	max-width: 68px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.info-tarif_row .btn {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.tarif-block-price__currency {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+	font-weight: 700;
+}
+
+.vacancy__list a.resume__list_full_name {
+	color: inherit;
+    margin-left: auto;
+}
+
+.vacancy__list-ml2 {
+	min-width: 50px;
+}  
+
+.search-cat__col3 .input-group_employer_countries {
+	width: 59%;
+}
+
+.search-cat__col3 .input-group_employer_city.input-group__col:last-child {
+	width: 41%;
+}
+
+.edit-info .table__tr .input-group .input-group__col input {
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.edit-info .table__tr .input-group .input-group__col .nice-select {
+	height: 32px;
+    line-height: 32px;
+}
+
+.edit-info .table__tr .input-group {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-left: 4px;
+}

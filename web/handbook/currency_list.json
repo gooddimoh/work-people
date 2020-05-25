@@ -1,0 +1,48 @@
+{
+    "root": {
+        "element": [
+            {
+                "char_code": "UAH",
+                "nominal": "10",
+                "name": "UAH",
+                "name_full": "Ukrainian hryvnia"
+            },
+            {
+                "char_code": "RUR",
+                "nominal": "1",
+                "name": "RUR",
+                "name_full": "Russian ruble"
+            },
+            {
+                "char_code": "USD",
+                "nominal": "1",
+                "name": "USD",
+                "name_full": "U.S. dollar"
+            },
+            {
+                "char_code": "EUR",
+                "nominal": "1",
+                "name": "EUR",
+                "name_full": "Euro"
+            },
+            {
+                "char_code": "CZK",
+                "nominal": "10",
+                "name": "CZK",
+                "name_full": "Czech crown"
+            },
+            {
+                "char_code": "PLN",
+                "nominal": "1",
+                "name": "PLN",
+                "name_full": "Polish złoty"
+            },
+            {
+                "char_code": "HUF",
+                "nominal": "100",
+                "name": "HUF",
+                "name_full": "Hungarian forint"
+            }
+        ]
+    }
+}

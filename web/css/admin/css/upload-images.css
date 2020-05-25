@@ -1,0 +1,31 @@
+.product_load_images {
+    margin-bottom: 10px;
+}
+.product_image>input, .product_image>.form-group, #product-upload_files {
+    display: none;
+}
+
+.product_image> .image-input-show {
+    display: block;
+}
+
+.product_load_images .product_images_list {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.product_load_images .product_image {
+    padding: 5px;
+    margin: 10px;
+    border: 3px solid #ddd;
+    cursor: pointer;
+}
+.product_load_images .product_image.main_image {
+    border-color: #2ecc71;
+}
+.product_load_images .product_image>img {
+    height: 120px;
+    margin-top: 5px;
+}
